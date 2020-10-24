@@ -1,7 +1,8 @@
 body {
     text-align: center;
 }
-#welcome{
+
+#welcome {
     background: linear-gradient(#de83dc 0%, #44e3ab 100%);
 }
 
@@ -87,4 +88,47 @@ button {
     display: inline-block;
     font-size: 16px;
     border-radius: 30px
+}
+
+#work {
+    height: 800px;
+    width: 100%;
+    background-color: pink;
+}
+
+#games {
+    height: 400px;
+    width: 100%;
+    background-color: darkorchid;
+    margin-top: 20px;
+}
+
+#chatbot {
+    height: 600px;
+    width: 100%;
+    background-color: yellow;
+}
+
+.play {
+    margin-top: 10px;
+    transition: transform o.2s;
+}
+
+.play:hover {
+    transform: scale(0.9);
+}
+
+#inspiration {
+    height: 500px;
+    width: 100%;
+    margin-top: 800px;
+    background-color: aqua;
+}
+
+#greta {
+    transition: transform o.2s;
+}
+
+#greta:hover {
+    transform: scale(0.9)
 }
