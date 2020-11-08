@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -20,6 +23,9 @@
         <li class="link"><a class="a" href="#inspiration">Inspiration</a></li>
         <li class="link"><a class="a" href="#contacts">Contact</a></li>
     </ul>
+    <div class="container">
+    
+    
     <section id="welcome">
         <div class="parallax-inner">
             <img class="image" src="books.jpeg">
@@ -52,14 +58,43 @@
             <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/0ACsTujKEZTZeNKHBggdkshKBlI6NkppUThNSoWZ4ts/embed"></iframe>
             <iframe width="352" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/KFZo6NZpKtHY_IARACSWINax-f8Q3MMPXf4ptfgWnqY/embed"></iframe>
         </section>
-        <section id="games">
+        
+        
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+            
+            <div class="item active">
+             <center>   
             <a href="https://studio.code.org/projects/applab/kdtSLz9w3uX1r8NSHM0_Oup-W6snUxdsZ4c7exUVP10" target="_blank">
-                <img class="play" src="study%20and%20app%20lab.png">
+                <img class="image-responsive" class="play" src="study%20and%20app%20lab.png">
             </a>
+                
+             <div class="carousel-content">
+                <p>Study and Play</p>
+                </div>
+                </center>
+                </div>
+                <div class="item">
+             <center>   
             <a href="https://studio.code.org/projects/spritelab/abpJXBoW1NSK4nTMcRVjhFqZtFJUxzNkz41AprrnefM" target="_blank">
                 <img class="play" src="winnie%20the%20pooh.png">
             </a>
-        </section>
+                
+             <div class="carousel-content">
+                <p>Winnie The Pooh</p>
+                </div>
+                </center>
+                </div>
+             </div>
+            <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" ></span>
+            </a>
+            <a class="right carousel-control" href="#mycarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" ></span>
+            </a>
+        </div>
+        
+        
         <section id="chatbot">
             <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/e178e7e6-358e-4891-96ce-017e76ac238e">
             </iframe>
@@ -84,6 +119,7 @@
             </a>
         </div>
     </section>
+        </div>
 </body>
 
 </html>
